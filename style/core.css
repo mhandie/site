@@ -1,76 +1,46 @@
-{display: block;}
-
-*
-{
-	margin: auto;
-	padding: 0;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-
-html{
-  height: 100%;
+body
+{
+    background: red;
 }
 
 header
 {
-	width: 100%;
-	float: left;
-	padding: 20px 0 20px 0;
-	background-color: blue;
-
-}
-
-img {width: 80px; height: 80px; bottom: 0; margin-left: 100px; }
-
-
-footer {
-        clear: both;
-        color: white;
-        background-color: #4717F6 ;
-        width: 100%; 
-        padding: 3px 0;
-        font-size: 100%; 
-        text-align: center;
-        opacity: 0.9;
-        margin-top: 25vh;
-    }
-
-nav ul li
-{
-	list-style: none;
-	float: right;
-
-}
-
-nav ul li a
-{
-	text-decoration: none;
-	display: inline block;
-	float: right;
-	padding: 5px 15px;
-	color: #fff;
-}
-
-nav ul li a.hover
-{
-	background-color: grey;
+    width: 100%;
+    float: left;
+    padding: 20px 0 20px 0; 
+    background: blue
 }
 
 h1
 {
-	color: yellow; 
-} !important
-
-
-.bg {
-    /* The image used */
-    background-image: url("includes/images/me.JPG");
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    color: yellow;
 }
+
+footer
+{
+    width: 100%;
+    float: left;
+    padding: 20px 0 20px 0; 
+    background: grey;
+}
+
+nav ul li
+{
+    list-style: none;
+    float: left;
+}
+
+nav ul li a
+{
+     text-decoration: none;
+    display: block;
+    float: left;
+    padding: 5px 15px;
+    color: #fff;
+}
+
